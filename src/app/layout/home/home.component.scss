@@ -1,0 +1,31 @@
+.container {
+  margin: 50px 0 0 200px;
+}
+
+.tablestyle {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tablestyle td,
+.tablestyle th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tablestyle tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tablestyle tr:hover {
+  background-color: #ddd;
+}
+
+.tablestyle th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #08042c;
+  color: white;
+}
